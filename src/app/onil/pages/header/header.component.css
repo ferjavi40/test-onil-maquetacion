@@ -7,12 +7,6 @@ img {
     width: 100%;
 }
 
-/* .text-over-img {
-    font-size: 1.2em;
-    position: absolute;
-    bottom: 1px;
-    left: 15%;
-} */
 
 /* Hover effect on images */
 .hovereffect {
@@ -95,4 +89,16 @@ img {
 .hovereffect:hover a.info {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
+}
+
+/* text on images */
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 0.8em;
 }
